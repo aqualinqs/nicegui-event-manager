@@ -19,10 +19,10 @@ def show_signup_page():
             
         with ui.column().classes('w-1/2 h-full bg-white flex flex-col justify-center items-center p-4'):
             with ui.row().classes('items-center'):
-                ui.label('Event').classes('text-2xl font-bold text-gray-800')
-                ui.label('Hive').classes('text-2xl font-bold text-orange-500')
+                ui.label('MEST').classes('text-2xl font-bold text-gray-800')
+                ui.label('EV MANAGER').classes('text-2xl font-bold text-orange-500')
 
-            ui.label('Sign Up to Event Hive').classes('text-3xl font-bold text-gray-800')
+            ui.label('Sign Up to MEST EV MANAGER').classes('text-3xl font-bold text-gray-800')
 
             # Input fields
             ui.input('YOUR NAME', placeholder='Enter your name').classes('w-3/4').props("outlined")
